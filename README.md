@@ -13,23 +13,6 @@ ORIGINAL: https://github.com/thelastoutpostworkshop/gpio_viewer
 - Install the Library ESPAsyncWebSrv
 - Install the the [AsyncTCP](https://github.com/dvarrel/AsyncTCP) using the Arduino IDE Library Manager.
 
-### Installation VSCode + PlatformIO
-
->ℹ️ Make sure you have the [latest ESP32 boards](https://github.com/espressif/arduino-esp32)
- by Espressif Systems in your Platforms<br>
-
-- Install the **GPIOViewer Library using PlateformIO Libraries**
-
-Add (or change) the following to your platformio.ini file:
-
-```
-platform = espressif32
-framework = arduino
-lib_deps =
-    https://github.com/dvarrel/AsyncTCP.git
-    https://github.com/me-no-dev/ESPAsyncWebServer.git
-```
-
 ## Usage
 >ℹ️ You can also get examples provided with the library in the Arduino IDE through the menu `File > Examples > GPIOViewer`<br>
 >ℹ️ You only need to include the library, declare the GPIOViewer and call begin() at the end of your setup, and that's it!<br>
